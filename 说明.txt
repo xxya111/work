@@ -1,0 +1,12 @@
+
+lab1-1.py: MAGIC Gamma Telescope Data Set数据分析
+
+lab1-2.py: 鸢尾花数据集核计算
+
+lab2.py: DENCLUE算法
+
+lab3.py: 决策树算法
+
+magic04.data文件 为lab1-1数据
+
+iris.txt文件 为其余实验使用的数据
