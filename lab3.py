@@ -139,6 +139,3 @@ def decisiontree(D, minp, pure):
     print("结点"+str(jb)+"的右子树为：")
     decisiontree(DN,minp,pure)
 
-D=pd.read_csv('C:/Users\XJW\Desktop\iris.txt',header=None)  #读取数据
-D=np.array(D)
-decisiontree(D,5,0.95)
