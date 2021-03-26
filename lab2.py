@@ -172,9 +172,7 @@ def denclue(data,h,min,e):        #h:窗口带宽  min：最小密度阈值  e�
     print("聚类纯度为："+str(purity))
 
 
-D=pd.read_csv('C:/Users\XJW\Desktop\iris.txt',header=None)    #读取鸢尾花数据
-d=np.array(D)    #转为数组
-data=d[:,0:2]    #切片
+
 #denclue(data,0.3,0.25,0.0001)
 #输入参数
 h=float(input("请输入带宽："))
